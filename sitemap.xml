@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://iamsunkai.com/categories/index.html</loc>
+    
+    <lastmod>2020-07-10T15:41:17.558Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iamsunkai.com/tags/index.html</loc>
+    
+    <lastmod>2020-07-10T15:41:14.566Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iamsunkai.com/about/index.html</loc>
+    
+    <lastmod>2020-07-10T15:39:43.489Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://iamsunkai.com/2020/07/10/hello-world/</loc>
     
     <lastmod>2020-07-10T04:13:52.401Z</lastmod>
