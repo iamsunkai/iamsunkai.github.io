@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://iamsunkai.com/2020/07/15/k8s%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B/</loc>
+    <lastmod>2020-07-15</lastmod>
+  </url>  <url>
     <loc>http://iamsunkai.com/2020/07/10/hello-world/</loc>
     <lastmod>2020-07-10</lastmod>
   </url>
