@@ -286,13 +286,7 @@
 
           </div>
           
-<script src="https://utteranc.es/client.js"
-        repo="iamsunkai/iamsunkai.github.io"
-        issue-term="title"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+    <div class="comments" id="gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -468,6 +462,26 @@
   
 
   
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : 'cb8f0e3b035670d32475',
+      clientSecret: 'f7297b01e0630ed97c0c51312afdd4ad123f96d0',
+      repo        : 'iamsunkai.github.io',
+      owner       : 'iamsunkai',
+      admin       : ['iamsunkai'],
+      id          : '19e5e2c6082adfe192ba7d622ce6f49f',
+        language: 'zh-CN',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
 
 </body>
 </html>
